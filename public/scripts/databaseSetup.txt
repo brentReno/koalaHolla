@@ -1,0 +1,19 @@
+
+Create Database with name of Koala Holla
+
+CREATE TABLE koala (
+	id SERIAL PRIMARY KEY NOT NULL,
+	koala_name VARCHAR(90),
+	gender VARCHAR(1),
+	age int,
+	ready_for_transfer VARCHAR(1),
+	notes VARCHAR(500)
+);
+
+--Add koalas
+INSERT INTO koala (koala_name, gender, age, ready_for_transfer, notes) VALUES ('Scotty', 'M', 4, 'Y', 'Born in Guatemala');
+INSERT INTO koala (koala_name, gender, age, ready_for_transfer, notes) VALUES ('Jean','F',5,'Y','Allergic to lots of lava');
+INSERT INTO koala (koala_name, gender, age, ready_for_transfer, notes) VALUES ('Ororo','F',7,'N','loves listening to Paula (Abdul)');
+INSERT INTO koala (koala_name, gender, age, ready_for_transfer, notes) VALUES ('Logan','M',15,'N','Love the sauna');
+INSERT INTO koala (koala_name, gender, age, ready_for_transfer, notes) VALUES ('Charlie','M',9,'Y','Favorite band is Nirvana');
+INSERT INTO koala (koala_name, gender, age, ready_for_transfer, notes) VALUES ('Betsy','F',4,'Y','Has a pet iguana');
